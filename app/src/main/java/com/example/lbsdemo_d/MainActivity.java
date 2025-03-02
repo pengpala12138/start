@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
         //自定义的位置监听器注册到百度地图定位客户端
         mlocationClient.registerLocationListener(mylocationListener);
 
-
+//1
         //定位按钮（回到当前位置）
         ImageButton locationBtn = this.findViewById(R.id.mylocation);
         locationBtn.setOnClickListener(new View.OnClickListener() {
