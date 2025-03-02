@@ -112,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
             public void onMapPoiClick(MapPoi mapPoi) {
             }
         });
+        //2
         //  切换地图类型
         ImageButton matype = this.findViewById(R.id.mapTypeBtn);
         matype.setContentDescription(getString(R.string.map_type_icon_description));//无障碍阅读
