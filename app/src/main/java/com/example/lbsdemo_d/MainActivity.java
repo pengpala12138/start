@@ -59,7 +59,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-//修改
+//修改2
     TextView locationInfo;//用于显示定位信息
     LocationClient mlocationClient;//声明一个LocationClient类型的变量，用于管理百度地图的定位功能
     MapView mMapView;//用于显示百度地图
